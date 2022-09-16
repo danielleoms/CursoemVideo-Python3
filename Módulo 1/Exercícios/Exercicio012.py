@@ -8,3 +8,9 @@ vd = produto * 0.05
 vf = produto - vd
 
 print('O produto que custava R${}, na promoção com desconto de 5% vai custar R${}.' .format(produto,vf))
+
+#resolução do guanabara:
+
+produto = float(input('Qual é o preço do produto?R$'))
+novo = produto - (produto * 5 / 100)
+print('O produto que custava R${}, na promoção com desconto de 5% vai custar R${}.' .format(produto,novo))
