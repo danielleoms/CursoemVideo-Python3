@@ -7,8 +7,8 @@ Primeiro = Danielle
 Último = Souza
 """
 
-n = str(input('Digite seu nome completo: ')).strip()
-nome = n.split()
+n = str(input('Digite seu nome completo: ')).strip() #função strip tira os espaços desnecesários
+nome = n.split() #função slip transforma em lista
 print('Muito prazer em te conhecer!')
 print('Seu primeiro nome é {}.'.format(nome[0]))
 print('Seu último nome é {}.'.format(nome[len(nome) - 1]))
