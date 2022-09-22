@@ -6,6 +6,7 @@ Ex: Danielle Oliveira Moreno de Souza
 Primeiro = Danielle
 Último = Souza
 """
+
 n = str(input('Digite seu nome completo: ')).strip()
 nome = n.split()
 print('Muito prazer em te conhecer!')
