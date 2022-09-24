@@ -12,6 +12,7 @@ if dist <= 200:
 
 else:
     print('E o preço de sua viagem será de R$ {:.2f}' .format(preço2))
+print('-==-' * 30)
 
 #RESOLUÇÃO DO GUANABARA
 
